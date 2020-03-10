@@ -1,0 +1,397 @@
+:root{
+    --pink: #e83e8c;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header-dark */
+.dark-header{
+    font-family: 'Spartan', sans-serif !important;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 15px;
+}
+.dark-header img{
+    width: 15px;
+    
+}
+h1{
+    font-family: 'Sacramento', cursive;
+}
+
+
+
+.dark-img img{
+    transform: rotate(100deg);
+}
+
+
+.contact-text span{
+    padding: 5px;
+}
+
+.header-icons{
+    background-color: rgb(83, 185, 211);
+    padding: 10px;
+    border-radius: 150px;
+}
+
+.header-icons:nth-child(1){
+    background-color: rgb(0, 106, 245);
+}
+
+.header-icons:nth-child(3){
+    background-color: rgb(245, 13, 13);
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: transparent !important;
+}
+
+.navbar-brand{
+    color: rgb(209, 50, 50) !important;
+    font-size: 30px;
+    font-family: 'Sacramento', cursive;
+}
+
+.nav-item .nav-link{
+    color:#000 !important;
+    font-size: 19px;
+    font-family: 'Spartan', sans-serif;  
+}
+
+a.nav-link.active {
+    color: rgb(209, 50, 50) !important;
+}
+
+
+.nav-item .nav-link:hover{
+   color: rgb(209, 50, 50) !important;
+}
+
+/* Landing image */
+
+.bg-hero{
+    background-image: url(../images/bg.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.hero-text{
+    position: relative;
+    top: 190px;
+}
+
+.bg-hero h1{
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bg-hero p{
+    padding-top: 20px;
+    font-size: 19px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.hero-img {
+    position: relative;
+    left: -390px;
+}
+
+/* our story */
+.our-story{
+    overflow: hidden;
+    background-color: var(--pink);
+    color: #fff;
+    font-family: 'Spartan', sans-serif;
+}
+
+.story-con{
+    padding-top: 50px;
+}
+.story-icon-span{
+    background-color: #469ffd;
+    border-radius: 100%;
+    padding: 50px 20px 50px 20px;
+    
+}
+
+.story-icon-span img{
+    width: 80px;
+    height: 80px;
+}
+
+.story-img img {
+    width: 100%;
+}
+.story-icons{
+    padding: 5px;
+    background-color: #000;
+}
+.story-icons img{
+    width: 15px;
+
+}
+
+.story-icons img:nth-child(1){
+    height: 15px;
+}
+
+/* story slide */
+
+
+.slide1{
+    background-image: url(../images/s1.jpg);
+    background-size: cover;
+    padding: 160px;
+}
+.slide2{
+    background-image: url(../images/s2.jpg);
+    background-size: cover;
+    padding: 160px;
+}
+.slide3{
+    background-image: url(../images/s3.jpg);
+    background-size: cover;
+    padding: 160px;
+}
+.slide4{
+    background-image: url(../images/s4.jpg);
+    background-size: cover;
+    padding: 160px;
+}
+.slide5{
+    background-image: url(../images/s5.jpg);
+    background-size: cover;
+    padding: 160px;
+}
+.slide6{
+    background-image: url(../images/s6.jpg);
+    background-size: cover;
+    padding: 160px;
+}
+.slide7{
+    background-image: url(../images/s7.jpg);
+    background-size: cover;
+    padding: 160px;
+}
+.slide8{
+    background-image: url(../images/s8.jpg);
+    background-size: cover;
+    padding: 160px;
+}
+
+.rose{
+    position: relative;
+    width: 20px;
+    top: 40px;
+}
+
+/* Who we are */
+
+.who-we-are-cons:nth-child(1){
+    background-color: #f8f9fa;
+    font-family: 'Spartan', sans-serif !important;
+    
+}
+.who-we-are-cons:nth-child(2){
+    color: #fff;
+    background-color: #469ffd;
+    font-family: 'Spartan', sans-serif !important;
+}
+.who-we-are-cons:nth-child(3){
+    color: #fff;
+    background-color: var(--pink);
+    font-family: 'Spartan', sans-serif !important;
+}
+
+.few-words img{
+    width: 100%;
+}
+
+.few-p img{
+    width: 15px !important;
+}
+
+.few-p a{
+    color: #e83e8c;
+}
+.few-p a:hover{
+    text-decoration: none;
+    color: #e83e8c;
+}
+
+
+.best{
+    color: #fff;
+    border: #fff 1px solid;
+    padding: 10px;
+}
+
+.services-icons img{
+    width: 18px;
+    height: 18px;
+    border: 1px solid blue;
+    border-radius: 100%;
+}
+
+.who-we-are-cons:nth-child(3) img{
+
+    width: 20px;
+    height: 20px;
+}
+.servics-icon{
+
+    border: 1px blue solid;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+}
+
+.services-items{
+    display: flex;
+}
+
+.block-service{
+    display: block;
+    padding-left: 20px;
+}
+
+/* Latest events */
+.latest-events{
+    background-color: #fff;
+}
+.card{
+    font-family: 'Spartan', sans-serif !important;
+    border: 0px !important;
+}
+.btn-outline-dark{
+    border-radius: 0px !important;
+}
+
+/* our gallary */
+.our-gallary{
+
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.images {
+    padding: 141px;
+}
+
+.images:nth-child(1){
+    background-image: url(../images/g1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images:nth-child(2){
+    background-image: url(../images/g2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images:nth-child(3){
+    background-image: url(../images/g4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images:nth-child(4){
+    background-image: url(../images/g3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images:nth-child(5){
+    background-image: url(../images/g5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images:nth-child(6){
+    background-image: url(../images/g6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images:nth-child(7){
+    background-image: url(../images/g7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images:nth-child(8){
+    background-image: url(../images/g8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wedding-ceremony{
+    font-family: 'Spartan', sans-serif !important;
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/* Contacts */
+
+  /* tabs */
+  .the-tabs{
+    background-color:  #fff;
+    font-family: 'Spartan', sans-serif !important;
+
+}
+.the-tabs .nav-tabs .nav-item {
+  color: #000;
+  border: 0px !important;
+  padding: 20px;
+  font-size: 20px;
+
+}
+
+.the-tabs .nav-tabs .nav-item.active {
+  color: #000 !important;
+  border-bottom: 2px solid rgb(0, 89, 255) !important;
+
+}
+.contact-tabs{
+    display: block;
+}
+.contact-tabs img{
+    width: 15px;
+
+}
+
+/* iframe */
+iframe{
+    width: 100%;
+}
+/* form */
+.contact-form{
+    background-color: var(--pink);
+}
+.form-control{
+    background-color: var(--pink) !important;
+    border: 0px;
+    border-bottom: 1px #fff solid;
+    border-radius: 0px;
+}
+.form-control::placeholder{
+    color: #fff;
+}
+.form-control:active{
+    outline: none !important;
+}
+.btn-outline-light{
+    border-radius: 0px !important;
+}
+
+.footer p{
+    font-family: 'Spartan', sans-serif !important;
+}
