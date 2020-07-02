@@ -372,25 +372,65 @@ a.nav-link.active {
 iframe{
     width: 100%;
 }
+
+
 /* form */
 .contact-form{
-    background-color: var(--pink);
-}
-.form-control{
-    background-color: var(--pink) !important;
-    border: 0px;
-    border-bottom: 1px #fff solid;
-    border-radius: 0px;
-}
-.form-control::placeholder{
     color: #fff;
 }
-.form-control:active{
-    outline: none !important;
+
+
+
+form{
+    position: relative;
+    text-align: left;
 }
-.btn-outline-light{
-    border-radius: 0px !important;
+form button{
+    float: right;
 }
+.form-group{
+    position: relative;
+}
+.form-group img{
+    visibility: hidden;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 10px;
+    top: 45px;
+}
+small{
+    visibility: hidden;
+}
+
+
+/* Messages */
+.successs .form-control{
+    border-color: #28a745 !important;
+}
+.successs .check{
+    visibility: visible !important;
+}
+
+.form-group.successs small{
+    color: #28a745;
+    visibility: visible !important;
+}
+
+.error .form-control{
+    border-color: #dc3545 !important;
+}
+
+.error .info{
+    visibility: visible;
+}
+
+.form-group.error small{
+    color: #dc3545;
+    visibility: visible !important;
+}
+
+/* footer */
 
 .footer p{
     font-family: 'Spartan', sans-serif !important;
